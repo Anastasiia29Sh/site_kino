@@ -1,0 +1,94 @@
+main .agreement{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+main .agreement a{
+	padding: 15px;
+	background-color: #63321C;
+	font-size: 1.2em;
+	color: #fff;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-right: 20px;
+}
+main .agreement a:hover{
+	background-color: #DE9300;
+}
+
+
+
+main h3{
+	font-size: 1.5em;
+}
+main p{
+	font-size: 1.1em;
+}
+.registr{
+	background-image: url('../img/pngwing.com_1.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 25%;
+}
+.registration_user{
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	background-image: url('../img/pngwing.com.png');
+	background-repeat: no-repeat;
+	background-position: 79%;
+	background-position-y: 90%;
+	background-size: 20%;
+}
+.registration_user table tr td:nth-child(1){
+	padding-left: 0;
+}
+.registration_user table td{
+	padding: 20px;
+	font-size: 1.1em;
+}
+.registration_user input{
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+	font-size: 1.1em;
+}
+.registration_user input:hover{
+	border: 2px solid #762908;
+}
+.registration_user .go_reg{
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: rgb(116, 53, 27);
+	color: #fff;
+}
+.registration_user .go_reg:hover{
+	background-color: rgb(186, 137, 14);
+}
+#mes_reg{
+	color: red;
+	margin-left: 250px;
+}
+#success{
+	display: none;
+	text-align: center;
+	height: 270px;
+	margin-top: 150px;
+}
+#success h4{
+	margin-bottom: 50px;
+	font-size: 1.2em;
+}
+#success a{
+	padding: 15px;
+	background-color: #63321C;
+	font-size: 1.2em;
+	color: #fff;
+	border-radius: 10px;
+	text-decoration: none;
+}
+#success a:hover{
+	background-color: #DE9300;
+}
